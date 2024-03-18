@@ -92,15 +92,35 @@ nav img{
     cursor: pointer;
 }
 .button-btn:hover{
-    border: 1px solid #f33;
-    background: #f33;
+    border: 1px solid #skyblue;
+    color: #000;
+    background: #fff;
     transition: .1s;
 }
 
 nav .fa{
     display: none;
 }
-
+.about, h2{
+  padding: 100px 100px;
+  left: 40px;
+  position: relative;
+}
+section{
+  height: 100vh;
+}
+.about{
+   width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#about{
+  background: linear-gradient(rgb(21, 22, 45, 0.7), rgb(84, 118, 126));
+}
 @media(max-width: 700px){
     .text-box h1{
         font-size: 20px; 
@@ -113,7 +133,7 @@ nav .fa{
     
     .nav-links{
         position: absolute;
-        background: #f33;
+        background: linear-gradient(rgb(84, 118, 126), rgb(21, 22, 45)),  skyblue;
         height: 100vh;
         width: 200px;
         top: 0;
